@@ -1,5 +1,10 @@
 Revision history for HTML-Extract-CPANModules
 
+0.02    2016-02-21 (PERLANCAR)
+
+	- Tweak Rinci metadata to make function more CLI-friendly.
+
+
 0.01    2016-02-21 (PERLANCAR)
 
         - First release.
