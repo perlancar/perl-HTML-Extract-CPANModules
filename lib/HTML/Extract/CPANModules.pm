@@ -78,7 +78,7 @@ sub extract_cpan_modules_from_html {
     }
 
     if ($args{from_text}) {
-        for my $el ($dom->find('p, td')->each) {
+        for my $el ($dom->find('*')->each) {
             my $text = $el->text;
             while ($text =~ /\b([A-Za-z_][A-Za-z_0-9]*(?:::[A-Za-z_0-9]+)+)\b/g) {
                 $mods{$1}++;
