@@ -20,6 +20,8 @@ $SPEC{extract_cpan_modules_from_html} = {
             schema => 'str*',
             req => 1,
             tags => ['category:input'],
+            pos => 0,
+            cmdline_src => 'stdin_or_files',
         },
         from_text => {
             schema => 'bool',
