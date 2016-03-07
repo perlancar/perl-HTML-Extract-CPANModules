@@ -71,7 +71,7 @@ sub extract_cpan_modules_from_html {
         for my $link ($dom->find('a[href]')->each) {
             #say $link;
             my $url = $link->attr->{href};
-            my $m = CPAN::Module::FromURL::extract_module_from_cpan_url($url);
+            my $m = CPAN::Module::FromURL::extract_cpan_module_from_url($url);
             next unless $m;
             $mods{$m}++;
         }
