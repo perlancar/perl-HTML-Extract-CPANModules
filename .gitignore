@@ -2,3 +2,4 @@ HTML-Extract-CPANModules-*
 .build
 *~
 nytprof*
+.DS_Store
